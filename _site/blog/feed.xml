@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 12 Jun 2015 20:07:56 -0400</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 20:07:56 -0400</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>Blog post 1</title>
+        <description>&lt;p&gt;My first post.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2015 12:24:49 -0400</pubDate>
+        <link>/blog-post-1</link>
+        <guid isPermaLink="true">/blog-post-1</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

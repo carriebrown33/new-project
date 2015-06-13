@@ -1,0 +1,11 @@
+# Site settings
+title: Digerati Dojo - digital literacy and education blog
+email: carriebrown33@gmail.com
+description: A blog about online education resources and digital literacy.
+url: "http://yourdomain.com"
+twitter_username: fascinatura
+github_username:  carriebrown33
+
+# Build settings
+markdown: kramdown
+permalink: :/title
