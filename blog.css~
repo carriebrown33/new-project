@@ -1,0 +1,160 @@
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+
+	color: white;
+	padding: 30px 10px 10px 10px;
+	margin-top: 0px;
+	background: #000009;
+	border-radius: 2px;
+	width: 100%;
+	
+	}
+
+#bgimage {
+background-image: url("file:///home/carrie/new_project/img/digital.jpg");
+min-height: 400px;
+border: solid 2px navy;
+box-shadow: 3px 3px 10px black;
+} 
+
+#wrapper {
+	position: relative;
+}
+
+#div {
+	height: 20%;
+}
+
+
+#search
+{
+	padding-left: 25%;
+}
+
+#more
+{
+
+
+}
+
+
+
+header h1 {
+	font-family: 'Share Tech', sans-serif;
+	margin: 0;
+	line-height: .5;	
+	
+
+
+
+}
+
+header p {
+	
+	margin-bottom: 0;
+float: left
+	
+}
+
+nav {
+background: navy;	
+	border-radius: 3px;
+}
+
+nav ul {
+	
+	padding-top: 1px;
+	line-height: 0;
+	float: right;
+	
+	
+	
+
+}
+
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	background: navy;
+	
+	
+		
+
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-style: arial;
+}
+
+a:hover {
+color: blue;
+}
+
+	
+/* two column */
+#wrapper {
+margin: 2%;
+}
+#main {
+float: left;
+max-width: 60%
+}
+
+.postheaders {
+background: navy;
+border-radius: 10px;
+padding: 10px;
+}
+
+#main p {
+font-size: 18px;}
+
+#side {
+float: right;
+max-width: 30%;
+background: navy;
+border-radius: 10px;
+padding: 10px;
+}
+
+#footer {
+clear:both;
+background: navy;
+margin: 0 auto;
+overflow: hidden;
+margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+	body {
+	margin: 0;
+	background-color: black;
+color: white;
+	
+}
+
+.float:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
