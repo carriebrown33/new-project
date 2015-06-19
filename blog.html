@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <head>
-	<!-- Javascript search functionality -->
-	<script language="JavaScript"> 
-<!-- Original by http://javascript.internet.com More javascripts http://www.hypergurl.com 
---> var NS4 = (document.layers); // Which browser? var IE4 = (document.all); 
-var win = window; // window to search. var n = 0; function findInPage(str) { var 
-txt, i, found; if (str == "") return false; // Find next occurance of 
-the given string on the page, wrap around to the // start of the page if necessary. 
-if (NS4) { // Look for match starting at the current point. If not found, rewind 
-// back to the first match. if (!win.find(str)) while(win.find(str, false, true)) 
-n++; else n++; // If not found in either direction, give message. if (n == 0) 
-alert("Not found."); } if (IE4) { txt = win.document.body.createTextRange(); 
-// Find the nth match from the top of the page. for (i = 0; i <= n && 
-(found = txt.findText(str)) != false; i++) { txt.moveStart("character", 
-1); txt.moveEnd("textedit"); } // If found, mark it and scroll it into 
-view. if (found) { txt.moveStart("character", -1); txt.findText(str); 
-txt.select(); txt.scrollIntoView(); n++; } // Otherwise, start over at the top 
-of the page and find first match. else { if (n > 0) { n = 0; findInPage(str); 
-} // Not found anywhere, give message. else alert("Not found."); } } 
-return false; } </script>
-<!-- Comment ends here -->
-	<title>  Blog project </title>
+	
+
+
+	<title>  Digerati Dojo: digital literacy and education blog </title>
 </head>
 
 <body> <div id="wrapper">
@@ -30,15 +13,7 @@ return false; } </script>
  
 		<h1> The Digerati Dojo </h1>
 		<p> Digital literacy and education blog </p>
-		<div id="search">
-			<p id="search"><!-- Header search -->
-		<form 
-name="search" onSubmit="return findInPage(this.string.value);"> 
-<div align="center"> <p><font size=3> <input name="string" 
-type="text" size=15 onChange="n = 0;"> </font> <input 
-type="submit" value="Search Page"> </p> </div> 
-</form>
-<!-- End --></div>
+	
 		<nav> 
 			<ul>
 				
@@ -46,75 +21,28 @@ type="submit" value="Search Page"> </p> </div>
 				<li><a href="resources"> Resources </li></a>
 				<li><a href="contact"> Contact </li></a>
 			</nav></ul>
-	</header> </div>
-	<link rel="stylesheet" href="C:\Users\carrie01\Desktop\bootstrap-3.3.4-dist\css">
+	</div> <div id="bgimage"> </div></header> 
 	<link rel="stylesheet" href="blog.css">
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
 
+<!-main-->
 
-	<!-- Main section -->
+<div id="wrapper">
+<div id="main" class="float"> <h1 class="postheaders"> June 19, 2015: On massive online education in the cloud 
+</h1>
+<p> Paragraph here. It is time to make college tuition free.
+President Obama’s America’s College Promise proposal takes a bold first step in transforming our nation’ higher education system by making community colleges tuition free. For many, it could cut the cost of a four-year college degree in half. We think it’s a great idea. But while we are waiting for the Congress to act upon it, we are working to expand the number of communities and states that have established free college tuition Promise Programs. Both Kalamazoo, MI, which started it all in 2005 and the State of Tennessee, which became the first state to make their community colleges free last year, serve as models that others should follow.
 
-	<div id="blank">
-	</div>
+These pioneers demonstrate that college tuition should be, can be free, and is already free thanks to education-focused leadership across America. In Tennessee, more than 90% of the state’s high school seniors – 56,000 plus students – have submitted a Tennessee Promise application to allow them to attend a public community or technical college tuition free.  </p>
+</div>
 
-	<div class="pagestyle">
-		<h1> Blog post number 1 </h1>
-		
-			<p> When the original call came for an anthology featuring “unusual” stories about Were-kind, one that specifically specified that writers should try and be a smidge more original than wolves howling at the full moon, I had a brainwave which I think might be the closest thing to an actual Original Idea™ that I’ve encountered in a long time – the concept of a Random Were, a creature which doesn’t have a “fixed” form as such but can Turn into the last warm-blooded creature observed before the metamorphosis begins. ANY warm-blooded creature. The potential for merry mayhem was obvious and hilarious, and that was the way the story originally went – it was funny. (One of the characters – via an unfortunate farmyard accident – was thus transformed into a Were-chicken…</p>
+<div id="side" class="float"> <h2> Search by hashtags! </h2>
+<p> #hastags #hastags #hastags #hastags #hastags
+#hastags #hastags #hastags #hastags #hastags #hastags </div>
 
-		</div>
+</div>
 
-	<div class="wholeside">	
-	<div class="side">
-		<h2> Search by hashtags! </h2>
-	 <p> 
-	 	#music
-	 	#history
-	 	 #politcalscience 
-	 	 #selfimprovement 
-	 	
-	 	 #moretags #moretags #more tags #moretags
-	 	 #moretags #moretags #more tags #morestags </p>
-	 	</div>
-	 	<div id="more">
-	 	 <h2> More stuff! </h2>
-	 	 <p> More stuff more stuff more stuff!!!! </p>
-	 	 <ul>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 	<li> Longlisg </li>
-	 	 </ul>
-	 	</div>
-	 </div>
+<footer id="footer">
+<p> Carrie Brown. 2015 </p></footer>
 
-	 <!-- Secondary area -->
-
-	 <div class="pagestyle">
-	 	<h1> Blog post number 1 </h1>
-	 	<p> <img src="laptop.jpg">
-	 		<p> When the original call came for an anthology featuring “unusual” stories about Were-kind, one that specifically specified that writers should try and be a smidge more original than wolves howling at the full moon, I had a brainwave which I think might be the closest thing to an actual Original Idea™ that I’ve encountered in a long time – the concept of a Random Were, a creature which doesn’t have a “fixed” form as such but can Turn into the last warm-blooded creature observed before the metamorphosis begins. ANY warm-blooded creature. The potential for merry mayhem was obvious and hilarious, and that was the way the story originally went – it was funny. (One of the characters – via an unfortunate farmyard accident – was thus transformed into a Were-chicken…</p>
-
-	 	</div>
-
-	
-
-	<!--   Third -->
-
-	 <div class="pagestyle">
-	 	<h1> Blog post number 1 </h1>
-	 	<p> <img src="laptop.jpg">
-	 		<p> When the original call came for an anthology featuring “unusual” stories about Were-kind, one that specifically specified that writers should try and be a smidge more original than wolves howling at the full moon, I had a brainwave which I think might be the closest thing to an actual Original Idea™ that I’ve encountered in a long time – the concept of a Random Were, a creature which doesn’t have a “fixed” form as such but can Turn into the last warm-blooded creature observed before the metamorphosis begins. ANY warm-blooded creature. The potential for merry mayhem was obvious and hilarious, and that was the way the story originally went – it was funny. (One of the characters – via an unfortunate farmyard accident – was thus transformed into a Were-chicken…</p>
-
-	 	</div>
-
-	 	
-
-	 	
 

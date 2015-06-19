@@ -7,13 +7,20 @@ header {
 
 	color: white;
 	padding: 30px 10px 10px 10px;
-	border-bottom: 5px solid #3D3D3D;
-	box-shadow: 3px 3px 10px grey;
 	margin-top: 0px;
-	background: radial-gradient(purple, indigo);
+	background: #000009;
 	border-radius: 2px;
 	width: 100%;
+	
 	}
+
+#bgimage {
+background-image: url("file:///home/carrie/new_project/img/digital.jpg");
+min-height: 400px;
+border: solid 2px navy;
+box-shadow: 3px 3px 10px black;
+} 
+
 #wrapper {
 	position: relative;
 }
@@ -39,20 +46,33 @@ header {
 header h1 {
 	font-family: 'Share Tech', sans-serif;
 	margin: 0;
-	line-height: .5;
+	line-height: .5;	
+	
+
+
 
 }
 
 header p {
-	float: left;
+	
 	margin-bottom: 0;
+float: left
+	
+}
+
+nav {
+background: navy;	
+	border-radius: 3px;
 }
 
 nav ul {
-	text-align: right;
+	
 	padding-top: 1px;
 	line-height: 0;
 	float: right;
+	
+	
+	
 
 }
 
@@ -61,7 +81,12 @@ nav li {
 	display: inline;
 	font-size: 20px;
 	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	background: navy;
 	
+	
+		
 
 }
 
@@ -70,50 +95,58 @@ nav a {
 	color: white;
 	font-style: arial;
 }
-.pagestyle
-	{
-		top-padding: 40px;
-		width: 60%;
-		float: left;
-		line-height: 1.5;
-		margin-top: 50%;
 
-	}
-
-.pagestyle h1 {
-	text-align: center;
+a:hover {
+color: yellow;
 }
-
-
-
-.wholeside {
-	float: right;
-	min-width: 25%;
-	max-width: 25%;
-	height: auto;
-	margin-top: 8%;
 
 	
-
-
-
+/* two column */
+#wrapper {
+margin: 2%;
+}
+#main {
+float: left;
+max-width: 60%
 }
 
-.side, #more {
-
-margin: 10% 0 0 0;
-border-radius: 1%;
-padding: 2%;
-background-color: indigo;
-border: solid purple 1px;
-box-shadow: inset 0 0 5px;
+.postheaders {
+background: navy;
+border-radius: 10px;
+padding: 10px;
 }
+
+#main p {
+font-size: 18px;}
+
+#side {
+float: right;
+max-width: 30%;
+background: navy;
+border-radius: 10px;
+padding: 10px;
+}
+
+#footer {
+clear:both;
+background: navy;
+margin: 0 auto;
+overflow: hidden;
+margin-top: 5%;
+}
+
+
+
+
+
+
 
 
 
 	body {
 	margin: 0;
-	background-color: rgb(200,167,200);
+	background-color: black;
+color: white;
 	
 }
 
@@ -121,9 +154,7 @@ box-shadow: inset 0 0 5px;
   content: "";
   display: table;
   clear: both;
+
 }
 
-#footer {
 
-	backgound: radial-gradient:(blue, navy);
-}
