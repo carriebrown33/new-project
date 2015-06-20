@@ -8,7 +8,7 @@ header {
 	color: white;
 	padding: 30px 10px 10px 10px;
 	margin-top: 0px;
-	background: #000009;
+	background: #006699;
 	border-radius: 2px;
 	width: 100%;
 	
@@ -61,7 +61,7 @@ float: left
 }
 
 nav {
-background: navy;	
+background: #006699;	
 	border-radius: 3px;
 }
 
@@ -97,7 +97,7 @@ nav a {
 }
 
 a:hover {
-color: blue;
+color: yellow;
 }
 
 	
@@ -111,7 +111,7 @@ max-width: 60%
 }
 
 .postheaders {
-background: navy;
+background: #006699;
 border-radius: 10px;
 padding: 10px;
 }
@@ -122,14 +122,14 @@ font-size: 18px;}
 #side {
 float: right;
 max-width: 30%;
-background: navy;
+background: #006699;
 border-radius: 10px;
 padding: 10px;
 }
 
 #footer {
 clear:both;
-background: navy;
+background: #006699;
 margin: 0 auto;
 overflow: hidden;
 margin-top: 5%;
@@ -145,7 +145,7 @@ margin-top: 5%;
 
 	body {
 	margin: 0;
-	background-color: black;
+	background-color: #009999;
 color: white;
 	
 }
