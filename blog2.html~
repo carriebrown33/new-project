@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+	
+
+
+	<title>  Digerati Dojo: digital literacy and education blog </title>
+</head>
+
+<body> <div id="wrappie">
+	<header class="float">
+		
+ 
+		<div id="title"><h1> The Digerati Dojo </h1> 
+		</div>
+	
+		<nav> 
+			<ul>
+				
+				<li><a href="about"> About </li></a>
+				<li><a href="resources"> Resources </li></a>
+				<li><a href="contact"> Contact </li></a>
+			</nav></ul></div>
+	</div> <div id="bgimage"> <p> Digital literacy and education blog </p> </div></header> 
+	<link rel="stylesheet" href="blog2.css">
+	<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
+
+<!-main-->
+
+<div id="wrapper">
+<div id="main" class="float"> <h1 class="postheaders"> June 19, 2015: On massive online education in the cloud 
+</h1>
+<p> Paragraph here. It is time to make college tuition free.
+President Obama’s America’s College Promise proposal takes a bold first step in transforming our nation’ higher education system by making community colleges tuition free. For many, it could cut the cost of a four-year college degree in half. We think it’s a great idea. But while we are waiting for the Congress to act upon it, we are working to expand the number of communities and states that have established free college tuition Promise Programs. Both Kalamazoo, MI, which started it all in 2005 and the State of Tennessee, which became the first state to make their community colleges free last year, serve as models that others should follow.
+
+These pioneers demonstrate that college tuition should be, can be free, and is already free thanks to education-focused leadership across America. In Tennessee, more than 90% of the state’s high school seniors – 56,000 plus students – have submitted a Tennessee Promise application to allow them to attend a public community or technical college tuition free.  </p>
+</div>
+
+<div id="side" class="float"> <h2> Posts </h2>
+<ul>
+<li> Past blog post </li>
+<li> Past blog post </li>
+<li> past blog post </li>
+<li> past blog post </li>
+<li> past blog post </ul>
+<h2> Quick resources </h2>
+<a href="http://coursera.org"> <img src="img/coursera-logo.png"> </a>
+</div>
+
+</div>
+
+<footer id="footer">
+<p> Carrie Brown. 2015 </p></footer>

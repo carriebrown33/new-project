@@ -1,0 +1,198 @@
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+
+	color: white;
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+	background: black;
+	border-radius: 2px;
+	width: 100%;
+	
+	
+	
+
+
+
+
+font-family: 'Share Tech', sans-serif;
+} 
+
+
+
+#bgimage {
+background: linear-gradient(#006699, transparent 20%),
+url("file:///home/carrie/new_project/img/digital.jpg");
+min-height: 350px;
+box-shadow: 1px 1px 10px black;
+}
+
+#bgimage p {
+margin: 0;
+text-align: center;
+padding-top: 10px;
+color: white;
+text-shadow: 2px 2px 0 black;
+font-size: 30px;
+padding-top: 10%;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#div {
+	height: 20%;
+}
+
+
+#search
+{
+	padding-left: 25%;
+}
+
+#more
+{
+
+
+}
+
+#title {
+float: left;
+
+}
+
+header h1 {
+	
+	margin: 0;
+	font-size: 30px;
+	padding-left: 10em;
+
+	
+}
+
+
+	
+}
+
+nav {
+background: #006699;	
+	border-radius: 3px;
+}
+
+nav ul {
+	
+	padding-top: 1px;
+	line-height: 0;
+	float: right;
+	padding-right: 30%;
+	
+	
+	
+
+}
+
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	
+	
+		
+
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-style: arial;
+}
+
+a:hover {
+border: white solid 2px;
+border-radius: 4px;
+padding: 3px;
+position: relative;
+}
+
+	
+/* two column */
+#wrapper {
+margin: 2%;
+}
+#main {
+float: left;
+max-width: 60%
+}
+
+.postheaders {
+border-bottom: 5px solid black;
+padding: 10px;
+color: black;
+}
+
+#main p {
+font-size: 18px;}
+
+#side {
+float: right;
+min-width: 20%;
+background: #F6F8F8;
+margin-right: 10%;
+min-height: 4em;
+border: solid 1px gray;
+}
+
+#side h2
+{
+border-bottom: 1px solid gray;
+text-align: center;
+}
+
+#side ul {
+list-style: none;
+padding-right: 30px;
+}
+
+#footer {
+clear:both;
+background: black;
+margin: 0 auto;
+overflow: hidden;
+margin-top: 5%;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+	body {
+	margin: 0;
+	background-color: #fff;
+color: black;
+	
+}
+
+.float:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.courseralogo
+{
+max-width: 50px;
+max-height: 50px;
+}
+
